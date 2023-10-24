@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+body{
+  min-height: 100vh;
+}
+.header{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  top: 0;
+  background-color: #F1F0E8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  padding: 14px 16px;
+}
+.nav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .nav {
+    background: transparent;
+    overflow: hidden;
+    float: right;
+  }
+  .nav a:hover {
+    background: transparent;
+    color: gray;
+  }
+  .nav a.active {
+    background: #F1F0E8;
+    opacity: 80%;
+    color: Black;
+  }
+  .carousel-item{
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+    top: 0;
+  }
+  .container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+  }
+  .container-about{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F1F0E8;
+    height: 200px;
+    text-align: center;
+    color:black;
+  }
+  .container-about h1{
+    color: white;
+    font-weight: bolder;
+  }
+  .container-about p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  images-container{
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+    padding-left: 10px;
+    align-items: center;
+    
+    
+  }
+  .images{
+    height: 45%;
+    width: 45%;
+    float: left;
+    margin-top: 20px;
+    margin-left:50px ;
+    padding-left: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+
+  }
+ 
+  
+ 
+
