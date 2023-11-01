@@ -80,14 +80,17 @@ nav ul li a{
   }
 }
 .img-gallery{
-  width: 80%;
-  margin: 50px auto ;
-
+  width: 100%;
+  margin: 100px auto 100px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
 }
 .img-gallery img{
   width: 300px;
   cursor: pointer;
-  
+  align-items: center;
+  padding: 10px 5px;
 }
 .gall{
   height: 100vh;
@@ -97,4 +100,13 @@ nav ul li a{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.img-gallery h1{
+  font-size: 80px;
+  padding-bottom: 15px;
+  /* text-align: center; */
+  color: black;
+  font-weight: 200px;
+  transition: 0.5s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
